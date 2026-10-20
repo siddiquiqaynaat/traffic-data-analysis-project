@@ -16,23 +16,23 @@ The project is designed to demonstrate practical skills in Python, data manipula
 
 ## Dataset
 
-The project is designed for the Traffic Prediction Dataset from Kaggle.
+The dataset used in this project is the [Traffic Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/hasibullahaman/traffic-prediction-dataset).
 
-The expected dataset includes the following columns:
+It contains traffic observations recorded at 15-minute intervals, including vehicle counts and traffic situation categories.
 
-| Column | Description |
-|---|---|
-| `Time` | Time of the observation |
-| `Date` | Date of the observation |
-| `Day of the week` | Day associated with the observation |
-| `CarCount` | Number of cars |
-| `BikeCount` | Number of bikes |
-| `BusCount` | Number of buses |
-| `TruckCount` | Number of trucks |
-| `Total` | Total vehicle count |
-| `Traffic Situation` | Traffic situation category |
+The dataset includes the following columns:
 
-The dataset is expected to contain traffic observations recorded at regular intervals. The notebook requires the corresponding CSV file to be available locally.
+- `Time` — time of observation
+- `Date` — date of observation
+- `Day of the week` — weekday
+- `CarCount` — number of cars
+- `BikeCount` — number of bikes
+- `BusCount` — number of buses
+- `TruckCount` — number of trucks
+- `Total` — total vehicle count
+- `Traffic Situation` — recorded traffic category
+
+**Instructions:** Download the dataset from Kaggle and place the CSV file in the project directory before running the Jupyter Notebook.
 
 ## Technologies Used
 
